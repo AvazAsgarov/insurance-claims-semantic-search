@@ -12,7 +12,7 @@ def run_analysis():
     
     # 2. Data Loading
     print("Loading insurance claims dataset...")
-    df = data_loader.load_claims("data/insurance_claims.csv")
+    df = data_loader.load_claims("data/workers_comp.csv")
     
     # 3. Embedding Generation
     print(f"Generating embeddings for {len(df)} descriptions...")

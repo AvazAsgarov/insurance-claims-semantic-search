@@ -22,7 +22,7 @@ def load_claims(file_path):
 if __name__ == "__main__":
     # Test
     try:
-        data = load_claims("data/insurance_claims.csv")
+        data = load_claims("data/workers_comp.csv")
         print(f"Successfully loaded {len(data)} claims.")
         print(data.head())
     except Exception as e:
